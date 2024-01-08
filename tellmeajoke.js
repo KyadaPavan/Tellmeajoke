@@ -1,0 +1,113 @@
+let joke = [ "My wife told me to stop impersonating a flamingo. I had to put my foot down.", "I went to buy some camo pants but couldn’t find any.", "I failed math so many times at school, I can’t even count.", "I used to have a handle on life, but then it broke.", "I was wondering why the frisbee kept getting bigger and bigger, but then it hit me.", "I heard there were a bunch of break-ins over at the car park. That is wrong on so many levels.", "I want to die peacefully in my sleep, like my grandfather… Not screaming and yelling like the passengers in his car.", "when life gives you melons, you might be dyslexic.", "Don’t you hate it when someone answers their own questions? I do.", "It takes a lot of balls to golf the way I do.", "I told him to be himself; that was pretty mean, I guess.", "I know they say that money talks, but all mine says is ‘Goodbye.’", "My father has schizophrenia, but he’s good people.", "The problem with kleptomaniacs is that they always take things literally.", "I can’t believe I got fired from the calendar factory. All I did was take a day off.", "Most people are shocked when they find out how bad I am as an electrician.", "Never trust atoms; they make up everything.", "My wife just found out I replaced our bed with a trampoline. She hit the ceiling!", "I was addicted to the hokey pokey, but then I turned myself around.", "I used to think I was indecisive. But now I’m not so sure.", "Russian dolls are so full of themselves.", "The easiest time to add insult to injury is when you’re signing someone’s cast.", "Light travels faster than sound, which is the reason that some people appear bright before you hear them speak.", "My therapist says I have a preoccupation for revenge. We’ll see about that.", "A termite walks into the bar and asks, ‘Is the bar tender here?’", "A told my girlfriend she drew her eyebrows too high. She seemed surprised.", "People who use selfie sticks really need to have a good, long look at themselves.", "Two fish are in a tank. One says, ‘How do you drive this thing?’", "I always take life with a grain of salt. And a slice of lemon. And a shot of tequila.", "Just burned 2,000 calories. That’s the last time I leave brownies in the oven while I nap.", "Always borrow money from a pessimist. They’ll never expect it back.", "Build a man a fire and he’ll be warm for a day. Set a man on fire and he’ll be warm for the rest of his life.", "I don’t suffer from insanity—I enjoy every minute of it.", "The last thing I want to do is hurt you; but it’s still on the list.", "The problem isn’t that obesity runs in your family. It’s that no one runs in your family.", "Today a man knocked on my door and asked for a small donation toward the local swimming pool. I gave him a glass of water.", "I’m reading a book about anti-gravity. It’s impossible to put down.", "‘Doctor, there’s a patient on line one that says he’s invisible.’ ‘Well, tell him I can’t see him right now.’", "Atheism is a non-prophet organization.", "A recent study has found that women who carry a little extra weight live longer than the men who mention it.", "The future, the present, and the past walk into a bar. Things got a little tense.", "Before you criticize someone, walk a mile in their shoes. That way, when you do criticize them, you’re a mile away and you have their shoes.", "Last night my girlfriend was complaining that I never listen to her… or something like that.", "Maybe if we start telling people their brain is an app, they’ll want to use it.", "If a parsley farmer gets sued, can they garnish his wages?", "I got a new pair of gloves today, but they’re both ‘lefts,’ which on the one hand is great, but on the other, it’s just not right.", "I didn’t think orthopedic shoes would help, but I stand corrected.", "I was riding a donkey the other day when someone threw a rock at me and I fell off. I guess I was stoned off my ass.", "People who take care of chickens are literally chicken tenders.", "It was an emotional wedding. Even the cake was in tiers." , "Parallel lines have so much in common. It's a shame they'll never meet.",
+    "I told my wife she was drawing her eyebrows too high. She seemed surprised.",
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "Why don't skeletons fight each other? They don't have the guts.",
+    "I'm reading a book about anti-gravity. It's impossible to put down!",
+    "What's orange and sounds like a parrot? A carrot!",
+    "Did you hear about the claustrophobic astronaut? He just needed a little space.",
+    "Why did the math book look sad? Because it had too many problems.",
+    "What did one plate say to the other plate? Dinner's on me!",
+    "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+    "How do you organize a space party? You 'planet'!",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "What do you call a fake noodle? An 'impasta'!",
+    "Why don't some couples go to the gym? Because some relationships don't work out!",
+    "How does a snowman get around? By riding an 'icicle'!",
+    "Why was the computer cold? It left its Windows open!",
+    "Why did the bicycle fall over? Because it was two-tired!",
+    "What do you call a bear with no teeth? A gummy bear!",
+    "I used to play piano by ear, but now I use my hands.",
+    "Why can't you give Elsa from Frozen a balloon? Because she will let it go!",
+    "Why don't scientists trust stairs? Because they're always up to something!",
+    "How does a penguin build its house? Igloos it together!",
+    "Why did the tomato turn red? Because it saw the salad dressing!",
+    "What did one wall say to the other wall? I'll meet you at the corner!",
+    "Why did the chicken go to the seance? To talk to the other side!",
+    "I only know 25 letters of the alphabet. I don't know y.",
+    "Did you hear about the kidnapping at the playground? They woke up.",
+    "How do you make a tissue dance? You put a little boogie in it!",
+    "Why don't oysters donate to charity? Because they're shellfish!",
+    "What do you get when you cross a snowman with a vampire? Frostbite!",
+    "I'm on a seafood diet. I see food and I eat it!",
+    "How does a train eat? It goes chew chew!",
+    "What did the left eye say to the right eye? Between you and me, something smells.",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "Why couldn't the bicycle stand up by itself? It was two-tired!",
+    "What's the best thing about Switzerland? I don't know, but the flag is a big plus!",
+    "What's the difference between a snowman and a snowwoman? Snowballs!",
+    "Why did the tomato turn red? Because it saw the salad dressing!",
+    "Why did the bicycle fall over? Because it was two-tired!",
+    "Why don't some couples go to the gym? Because some relationships don't work out!",
+    "Why did the math book look sad? Because it had too many problems.",
+    "What do you call a group of musical whales? An orca-stra!",
+    "Why don't some fish play piano? You can't tuna fish!",
+    "Why did the astronaut break up with his girlfriend? He needed space.",
+    "What's the difference between a poorly dressed man on a tricycle and a well-dressed man on a bicycle? Attire!",
+    "What do you call a bear with no teeth? A gummy bear!",
+    "I told my wife she was drawing her eyebrows too high. She seemed surprised.",
+    "Why was the math book sad? Because it had too many problems.",
+    "I used to play piano by ear, but now I use my hands.",
+    "How do you organize a space party? You 'planet'!",
+    "Why can't you trust an atom? Because they make up everything!",
+    "Why did the bicycle fall over? Because it was two-tired!",
+    "What do you call a can opener that doesn't work? A can't opener!",
+    "Why don't scientists trust stairs? Because they're always up to something!",
+    "What did one wall say to the other wall? I'll meet you at the corner!",
+    "I used to play piano by ear, but now I use my hands.",
+    "Why don't scientists trust atoms? Because they make up everything!",
+    "What do you call a fake noodle? An 'impasta'!",
+    "How do you organize a space party? You 'planet'!",
+    "What's orange and sounds like a parrot? A carrot!",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "Why couldn't the bicycle stand up by itself? It was two-tired!",
+    "Why don't oysters donate to charity? Because they're shellfish!",
+    "What do you get when you cross a snowman with a vampire? Frostbite!",
+    "I'm on a seafood diet. I see food and I eat it!",
+    "How does a train eat? It goes chew chew!",
+    "Did you hear about the kidnapping at the playground? They woke up.",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "I only know 25 letters of the alphabet. I don't know y.",
+    "Why did the math book look sad? Because it had too many problems.",
+    "What did the fish say when it hit the wall? Dam!",
+    "I told my wife she was drawing her eyebrows too high. She seemed surprised.",
+    "Why did the golfer bring two pairs of pants? In case he got a hole in one!",
+    "What do you call a group of musical whales? An orca-stra!",
+    "Why did the astronaut break up with his girlfriend? He needed space.",
+    "Why did the tomato turn red? Because it saw the salad dressing!",
+    "What do you call a bear with no teeth? A gummy bear!",
+    "Why can't you give Elsa from Frozen a balloon? Because she will let it go!",
+    "How does a penguin build its house? Igloos it together!",
+    "What's the difference between a poorly dressed man on a tricycle and a well-dressed man on a bicycle? Attire!",
+    "Why don't some fish play piano? You can't tuna fish!",
+    "Why did the scarecrow win an award? Because he was outstanding in his field!",
+    "I used to play piano by ear, but now I use my hands.",
+    "Parallel lines have so much in common. It's a shame they'll never meet.",
+    "What's brown and sticky? A stick!",
+    "Why did the chicken go to the seance? To talk to the other side!",
+    "How do you make holy water? You boil the hell out of it!",
+    "Why did the bicycle fall over? Because it was two-tired!",
+    "I'm reading a book on anti-gravity. It's impossible to put down!",
+    "Why did the tomato turn red? Because it saw the salad dressing!",
+    "I'm friends with all electricians. We have great current connections.",
+    "Oooo! Bhai ye mazak ho raha nahi maroo mujhe maroo",
+ ] ;
+
+let textField = document.querySelector("#jokeContent");
+let button = document.querySelector("#btn1");
+
+// function showjoke(){
+//     let randomjoke =joke[Math.floor(Math.random()*joke.length-1)];
+//     textField.textContent = joke[randomjoke];
+// }
+
+
+
+const showjoke = ()=>{
+    randomjoke = Math.floor(Math.random()*joke.length-1)
+    textField.textContent = joke[randomjoke]
+}
+
+// function tweet(){
+//     window.open("https://twitter.com/intent/tweet?text=" + randomjoke  , "Tweet window" , "Width=600 , height=400");
+// }
+

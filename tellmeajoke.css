@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@500&family=EB+Garamond&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149694919.jpg?size=626&ext=jpg&ga=GA1.2.171895579.1681935458&semt=ais");
+    background-size: 1550px 750px;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.origin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+}
+
+.card{
+    border: 2px solid rgba(0, 0, 0, 0.659);
+    width: 500px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.209);
+}
+
+#btn1{
+    background: transparent;
+    backdrop-filter: blur(50px);
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.659);
+    border-radius: 52%;
+    padding: 8px;
+    font-size: 38px;
+}
+
+/* #btn2{
+    background: transparent;
+    backdrop-filter: blur(50px);
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.659);
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+} */
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.card-header{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.659);
+}
+
+.card-footer{
+    color: black;
+    border-top: 2px solid rgba(0, 0, 0, 0.659);
+}
+
+p{
+    color: black;
+}
+
+.instruct , .smile{
+    font-weight: 600;
+}
+
+.mainjoke{
+    font-size: 32px;
+}
+
